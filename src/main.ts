@@ -15,8 +15,7 @@ let url = process.argv[2];
 // The following commented url is where you can pretty much get every recipe from every expansion in the game
 // url = "https://www.wowhead.com/cooking-recipe-spells/outlandish-dishes-header/outlandish-dishes"
 // url = "https://www.wowhead.com/cooking-recipe-spells/old-world-recipes-header/old-world-recipes"
-url = "https://www.wowhead.com/cooking-recipe-spells";
-1
+// url = "https://www.wowhead.com/cooking-recipe-spells";
 
 const wow = new WoWAPI(process.env.blizzard);
 let recipes:any[]=[]
